@@ -24,14 +24,7 @@ public class CustomIterator {
             arr[index] = arr[index + 1];
         return true;
     }
-    public String previous(String elem) {
-        String prev=null;
-        for (int i = 0; i < arr.length; i++) {
-            if (elem == arr[i])
-                prev=arr[i-1];
-        }
-        return prev;
-    }
+   
     public String next(String elem){
         String prev=null;
         for(int i=0;i<arr.length-1;i++){
